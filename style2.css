@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body {
+    font-family: 'Happy Monkey',system-ui,sans-serif!important;
+    font-size: large;
+    font-size: large;
+    width:100%;
+    font-weight: 800px!important;
+}
+
+.container {
+    width:90%;
+    max-width: 470px;
+    background: linear-gradient(135deg,red,orange,yellow,rgb(126, 255, 126),turquoise,rgb(73, 137, 201));
+    margin:100px auto 0;
+    border-radius:20px;
+    padding:40px 35px;
+    text-align:center;
+   color:black;
+   
+    
+    margin-top: 150px;
+    border-style: double;
+    border-color: black;
+    border-width: 20px;
+}
+.search{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search input {
+  
+   outline:0;
+   background:#ebfffc;
+   color:black;
+   padding:10px 25px;
+   height:60px;
+   border-radius:30px;
+  width:90%;
+   margin:16px;
+   font-family: 'Happy Monkey', sans-serif; 
+   
+   flex:1;
+   border-style:solid;
+   border-color: black;
+   border-width: 5px;
+    font-weight: 800px!important;
+    font-size:large;
+}
+::placeholder {
+    font-family: 'Happy Monkey', sans-serif; 
+    color:black;
+    font-size: large;
+    width:100%;
+    font-weight: 800px!important;
+
+
+}    
+
+button {
+    border-style: groove;
+    border-width:5px;
+    outline:0;
+    background:#ebfffc;
+    border-radius:50%;
+    width:60px;
+    height:60px;
+    cursor: pointer;
+
+}
+button img{
+ width:16px;
+}
+
+
+button:hover {
+    background-color: lightpink;
+}
+
+#weatherInfo {
+    margin-top: 20px;
+}
+.background-clip{
+    position:absolute;
+    right:0;
+    bottom:0;
+    z-index:-1;
+
+}
+p{
+    font-size: 45px;
+    font-weight:500;
+}
+h2{
+   font-size: 45px;
+   font-weight:500;
+}
+h1{ margin-top:60px;
+    color: transparent;
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: "Poppins", sans-serif;
+    font-size: 50px;
+    letter-spacing: 0.05em;
+    background: -moz-linear-gradient(
+        #fd004c 16.7%,
+        #fe9000 16.7%,
+        #fe9000 33.4%,
+        #fff020 33.4%,
+        #fff020 50.1%,
+        #3edf4b 50.1%,
+        #3edf4b 66.8%,
+        #3363ff 66.8%,
+        #3363ff 83.5%,
+        #b102b7 83.5%
+    );
+    -webkit-text-stroke: 0.04em #ffffff;
+    -webkit-background-clip: text;
+    background-clip: text;
+    line-height: 1.1em;
+    z-index: 1000; /* Ensure it stays on top of other content */
+}
